@@ -122,10 +122,10 @@ Both example scripts will output a "training time" which represents the amount o
 The following diagrams show the difference between the native CPU and the accelerated FPGA solution.
 They also indicate that the advantage of scaling up to multiple accelerators gets bigger the bigger the problem size is.
 
-![CPU-FPGA Comparison](https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/images/10-trees-cpu-fpga.png)
+![CPU-FPGA Comparison](https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/images/10-trees-cpu-fpga.png)
 
-![FPGA 10 Trees](https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/images/10-trees-fpga-transfer.png)
+![FPGA 10 Trees](https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/images/10-trees-fpga-transfer.png)
 
-![FPGA 100 Trees](https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/images/100-trees-fpga-transfer.png)
+![FPGA 100 Trees](https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/images/100-trees-fpga-transfer.png)
 
-![FPGA More Trees](https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/images/all-trees-diagram.png)
+![FPGA More Trees](https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/images/all-trees-diagram.png)
