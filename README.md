@@ -67,8 +67,8 @@ The example comes in two different flavors which can be found inside the example
 Download the examples using the following commands:
 
 ```
-wget -P data https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/examples/airline.scala
-wget -P data https://raw.githubusercontent.com/xeleratechnologies/xelerasuite/master/examples/airline.py
+wget -P data https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/examples/airline.scala
+wget -P data https://raw.githubusercontent.com/xelera-technologies/SparkAccelerator/master/examples/airline.py
 ```
 
 ### Running the tests
