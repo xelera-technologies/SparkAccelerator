@@ -81,7 +81,7 @@ ls /dev/ | grep xclmgmt
 Start up the docker container which is pulled from the Xelera docker repository. Replace the device identifier (e.g. xclmgmt44800) with the one you found out in the previous step.
 
 ```
-docker run -it --rm -v ${PWD}/data:/app/data --device /dev/xclmgmt44800 --device /dev/dri --name cont-alveo-xrt-rf-evaluation-release containerhub.xelera.io:4433/201830.2_16.04:alveo-xrt-rf-evaluation-release:201830.2_16.04
+docker run -it --rm -v ${PWD}/data:/app/data --device /dev/xclmgmt44800 --device /dev/dri --name cont-alveo-xrt-rf-evaluation-release containerhub.xelera.io:443/201830.2_16.04:alveo-xrt-rf-evaluation-release:201830.2_16.04
 ```
 
 First the Xelera Suite has to be initialized. This readies the hardware accelerators and makes them available for plugins (e.g. the Random Forest Training). If more than one device should be used simultaneously for one plugin, the "num_devices" inside the config.json must be adjusted.
